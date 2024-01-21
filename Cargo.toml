@@ -1,0 +1,9 @@
+[package]
+name = "check-traffic-processor-pods"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tablestream = "0.1.3"
