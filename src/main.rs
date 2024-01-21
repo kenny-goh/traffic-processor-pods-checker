@@ -39,7 +39,7 @@ fn exec(cmd: &str, args: &[&str]) -> String
     String::from_utf8(output.stdout).unwrap()
 }
 
-/// A simple program that summarizes the status of traffic-processor pods for a list of tenants
+/// A simple program that summarizes the status of traffic-processor k8s pods for a list of tenants
 /// Usage: cargo run -- <tenant-names in comma separated list>, e.g "foo,bar"
 fn main() {
     let args: Vec<String> = env::args().collect();
